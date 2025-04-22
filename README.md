@@ -2,9 +2,16 @@
 This project focuses on predicting product returns in the e-commerce industry, aiming to identify key factors that influence return behavior. With the growing challenge of managing returns, businesses need better ways to anticipate which products are likely to be returned. The goal of this analysis is to develop a predictive model that can help e-commerce platforms minimize returns and optimize their processes.
 
 To achieve this, we analyze historical transaction data, which includes customer details, product features, purchasing behavior, and return history. Key factors such as product type, price, customer demographics, and previous return behavior are considered in the analysis. By applying machine learning techniques, including logistic regression, decision trees, and ensemble methods like random forests, we build models that can predict whether a product is likely to be returned after purchase.
+![image](https://github.com/user-attachments/assets/bc095377-3101-4973-a6f1-8a0c06a2cd5d)
 
-The project follows a typical data science workflow, starting with data preprocessing, where missing values, outliers, and categorical variables are handled. Feature engineering is then applied to create relevant predictors based on the available data. After training the models, their performance is evaluated using metrics like accuracy, precision, recall, and F1-score to ensure reliable predictions.
 
-The insights gained from this analysis are intended to help businesses identify patterns in return behavior, such as which types of products are most likely to be returned and which customer groups are more likely to initiate returns. By understanding these patterns, businesses can take proactive measures to reduce return rates, such as adjusting product offerings, improving product descriptions, or refining return policies.
+📊 Classification Report:
 
-Ultimately, this project provides e-commerce businesses with actionable insights to enhance customer satisfaction, reduce operational costs, and improve profitability by managing product returns more effectively.
+              precision    recall  f1-score   support
+
+          no       0.50      0.33      0.40         9
+         yes       0.57      0.73      0.64        11
+
+    accuracy                           0.55        20
+   macro avg       0.54      0.53      0.52        20
+weighted avg       0.54      0.55      0.53        20
